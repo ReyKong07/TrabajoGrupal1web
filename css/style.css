@@ -80,7 +80,7 @@ section{
 
 }
 
-/* primera seccion del incio (cita de la fotógrafa): */
+/* primera seccion del inicio (cita de la fotógrafa): */
 
 .seccion1{
     display: flex;
@@ -125,7 +125,7 @@ section{
 
 }
 
-/* segunda seccion de incio (video de presentacion): */
+/* segunda seccion de inicio (video de presentacion): */
 
 
 .presentacion {
@@ -154,7 +154,7 @@ section{
 
 }
 
-/* tercera seccion de incio (testimonios): */
+/* tercera seccion de inicio (testimonios): */
 
 
 .seccion-imagenes {
@@ -209,7 +209,7 @@ section{
     margin: 0 auto; /* Centra la imagen horizontalmente */
 }
 
-/* cuarta seccion de incio (agradecimientos): */
+/* cuarta seccion de inicio (agradecimientos): */
 .despedida {
     margin: 50px;
     font-size: 30px;
