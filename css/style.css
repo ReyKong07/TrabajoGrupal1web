@@ -287,6 +287,94 @@ footer a:hover{
 
 }
 
+/* Media Queries */
+@media (max-width: 1024px) {
+    nav ul li a {
+        font-family: 'Times New Roman', Times, serif;
+        padding: 10px;
+        margin: 10px;
+        font-size: 16px;
+    }
+    .seccion1 p, .presentacion p, .seccion-imagenes p {
+        font-size: 16px;
+        padding: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .despedida {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    nav {
+        font-family: 'Times New Roman', Times, serif;
+        padding: 3%;
+        width: auto;
+        height: auto;
+    }
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+    .seccion1, .presentacion, .seccion-imagenes {
+        font-family: 'Times New Roman', Times, serif;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .presentacion video, .seccion-imagenes img {
+        width: 80%;
+        height: auto;
+    }
+    .seccion1 img{
+        width: 250px;
+        height: auto;
+    }
+    .seccion1 p, .presentacion p, .seccion-imagenes p {
+        font-family: 'Times New Roman', Times, serif;
+        width: auto;
+        padding: 15px;
+        margin: 10px;
+        font-size: 20px;
+    }
+    .seccion-imagenes h2{
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        position:relative;
+        margin: 20px;
+        font-size: 30px;
+        border-bottom: 3px solid rgba(0, 0, 0, 0.355);
+        letter-spacing: 2px;
+
+    }
+}
+
+@media (max-width: 480px) {
+    nav ul li a {
+        font-family: 'Times New Roman', Times, serif;
+        padding: 5px;
+        margin: 5px;
+        font-size: 14px;
+    }
+    .seccion1 p, .presentacion p, .seccion-imagenes p {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 14px;
+        padding: 10px;
+    }
+    .despedida {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 18px;
+        padding: 15px;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+    footer div {
+        font-family: 'Times New Roman', Times, serif;
+        padding: 10%;
+    }
+}
+
 /* fin INICIO */
 
 
