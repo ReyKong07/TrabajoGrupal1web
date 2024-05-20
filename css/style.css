@@ -977,6 +977,43 @@ footer a:hover{
 /* comienza CONTACTO */
 
 /*vista en laptop*/
+.contenedor-general-contactos{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../imagenes/index/brillos-fondo-inicio.png);
+    background-size: contain;
+    background-position: center; 
+    
+}
+.titulo-contacto{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    justify-content: center;
+    font-size: 2.5rem;
+    margin-top: 50px;
+    border-bottom: 1px solid grey;
+}
+.subtitulo-contacto{
+    width: 40%;
+    height: 100px;
+    display: flex;
+    justify-content: start;
+    font-size: 1.8rem;
+
+}
+.cont-contacto h3{
+    margin-top: 20px;
+    font-size: 2rem;
+}
+.mapa{
+    width: 40%;
+    height: 300px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
 #formulario{
     background-color: rgb(202, 157, 98);
     border: 2px solid rgb(99, 77, 48);;
@@ -999,13 +1036,12 @@ footer a:hover{
     
     
 }
-.contacto{
+.cont-contacto{
     float: left;
-    margin-top: 10%;
-    
+    margin-top: 10%; 
     padding: 10px;
     width: 45%;
-    /*border: 2px solid black;*/
+    
 }
 .menu{
     background-color: black;
@@ -1026,13 +1062,27 @@ footer a:hover{
 #ubicacion{
     color: red;
 }
+
 /*vista en Mobile */
 @media screen and (max-width:576px){
     #formulario{
         width: 100%;
         margin: 0 ;
-        margin-bottom: 2%;
-        box-sizing: border-box;
+        margin-bottom: 2%; 
+        box-sizing: border-box; 
+    }
+    .cont-contacto h3{
+        margin-top: 20px;
+        font-size: 1rem;
+    }
+    .mapa{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        margin-top:30px;
+        margin-bottom: 30px;
     }
 
     .contacto{
@@ -1045,11 +1095,40 @@ footer a:hover{
         width: 250px;
         padding: 4%;
     }
+    .subtitulo-contacto{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: start;
+        font-size: 1.8rem;
+    
+    }
     
 }
 
 /*vista en dispositivos medium/tablet*/
 @media screen and (min-width: 577px)and (max-width:900px){
+    .subtitulo-contacto{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: start;
+        font-size: 1.8rem;
+    
+    }
+    .cont-contacto h3{
+        margin-top: 20px;
+        font-size: 1rem;
+    }
+    .mapa{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        margin-top:30px;
+        margin-bottom: 30px;
+    }
     #formulario{
         width: 70%;
         margin-left: 15%;
@@ -1057,6 +1136,22 @@ footer a:hover{
         margin-bottom: 2%;
         box-sizing: border-box;
         padding-left: 5%;
+        
+    }
+    .cont-contacto{
+        width: 100%;
+        height: 80vh;
+        background-color: rgba(245, 226, 200, 0.644);
+        
+    }
+    .mapa{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        border-radius: 15px;
         
     }
 
@@ -1068,7 +1163,7 @@ footer a:hover{
     }
 
     #mapa{
-        width: 100%;
+        width: 70%;
        
         padding: 0%;
     }
